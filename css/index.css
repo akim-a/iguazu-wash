@@ -352,7 +352,9 @@ article.pricing-card h4 {
     min-height: 700px;
     display: grid;
     text-align: left;
-    padding: 20px;
+    padding: 30px;
+    margin: auto;
+    margin-bottom: 20px;
 }
 .contact a {
     font-weight: bold;
@@ -370,5 +372,5 @@ article.pricing-card h4 {
 
 .copy-right  {
     color: #808080;
-    padding-top: 20px;
+    padding: top 20px;
 }
