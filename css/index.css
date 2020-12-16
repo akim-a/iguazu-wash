@@ -38,6 +38,7 @@ body {
     text-align: center;
     transition: color 0.7s;
     background-color: #ffdd00;
+    height: 2rem;
 }
 
 .button:hover {
@@ -350,9 +351,9 @@ article.pricing-card h4 {
     background-size: cover;
     background-position: absolute;
     min-height: 700px;
-    display: grid;
+    display: block;
     text-align: left;
-    padding: 30px;
+    padding: 20px;
     margin: auto;
     margin-bottom: 20px;
 }
@@ -362,10 +363,21 @@ article.pricing-card h4 {
 .contact h2, p, a, b {
     color: white;
 }
+.map {
+    z-index: 3;
+    height: 100%;
+    width: 100%;
+    padding: 0px;
+    border-width: 0px;
+    margin: 0px;
+    left: 0px;
+    top: 0px;
+    
+}
 .forma {
     background-color: whitesmoke;
     display: block;
-    max-width: 350px;
+    width: auto;
     min-height: 455px;
     padding: 30px;
 }
